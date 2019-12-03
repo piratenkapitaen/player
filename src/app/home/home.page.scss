@@ -1,1 +1,27 @@
+ion-content.toolbar-background {
+  background-color: rgba(32,192,0,.7);
+}
 
+ion-item {
+--ion-background-color: rgba(255,255,255,1.) !important;
+background-color: transparent;
+}
+
+.list, .item, .item-content, .item-inner, .item-block ,.item-ios, .item-complex
+{
+  --ion-background-color: transparent !important;
+}
+
+.bg_button
+{
+	background: transparent;
+}
+
+ion-content.ctrl_toolbar {
+        padding: 5px;
+}
+
+.bg-transparent {
+	padding: 1px 0 1px;
+	background: transparent;
+}
